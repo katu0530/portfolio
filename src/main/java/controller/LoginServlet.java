@@ -36,7 +36,7 @@ public class LoginServlet extends HttpServlet {
 		System.out.println(user_id);
 		System.out.println(password);
 		
-		request.getRequestDispatcher("/WEB-INF/view/accept.jsp").forward(request, response);
+		request.getRequestDispatcher("/WEB-INF/view/signin.jsp").forward(request, response);
 		
 		
 		
